@@ -1,0 +1,30 @@
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #000000;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  .icono{
+    margin-left: -10%;
+    font-size: 400px;
+    color: black;
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  .icono{
+    height: 100vh
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
