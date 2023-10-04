@@ -22,7 +22,7 @@
                 <!-- Sidebar Navigation -->
                 <ul class="sidebar-nav">
                     <li class="sidebar-item">
-                        <a href="Administrador/homeA" class="sidebar-link">
+                        <a href="#" class="sidebar-link">
                             <i class="fa-solid fa-list pe-2"></i>
                             Perfil
                         </a>
@@ -47,10 +47,10 @@
                         </a>
                         <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Inventario</a>
+                                <a href="#" class="sidebar-link">Información</a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Información</a>
+                                <a href="#" class="sidebar-link">Inventario</a>
                             </li>
                         </ul>
                     </li>
