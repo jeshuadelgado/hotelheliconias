@@ -32,7 +32,7 @@
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#team">Tarifas y Precios</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#prom">Planes y Promociones</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#contact">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">{{ __('Inicio Sesión') }}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('loginForm') }}">{{ __('Inicio Sesión') }}</a></li>
                     </ul>
                 </div>
             </div>

@@ -41,18 +41,24 @@
                   <form action="{{ route('register') }}" method="POST">
                     @csrf
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form2Example11">Nombre</label>
-                        <input type="text" name="name" id="form2Example11" class="form-control"
-                          placeholder="Ingresar su Nombre" />
+                      <label class="form-label" for="form2Example11">Nombre</label>
+                      <input type="text" name="name" id="form2Example11" class="form-control"
+                      placeholder="Ingresar su Nombre" />
                     </div>
     
 
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form2Example11">Correo</label>
+                      <label class="form-label" for="form2Example11">Correo</label>
                       <input type="email" name="email" id="form2Example11" class="form-control"
-                        placeholder="Ingresar Correo" />
+                      placeholder="Ingresar Correo" />
                     </div>
-  
+
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="form2Example11">Telefono</label>
+                      <input type="text" name="telefono" id="form2Example11" class="form-control"
+                      placeholder="Ingresar Telefono" />
+                    </div>
+
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form2Example22" >Contraseña</label>
                       <input type="password" name="password" id="form2Example22" class="form-control" />

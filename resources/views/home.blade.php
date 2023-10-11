@@ -1,5 +1,5 @@
 @if (Auth::user()->rol=="Administrador")
-    @include('Administrador/homeA')
+    @include('Administrador/perfil')
 @else
     @include('Clientes/homeC')
 @endif
