@@ -16,19 +16,19 @@
     <div class="container-fluid">
         <div class="formulario">
             <h2>Perfil</h2>
-            <form method="POST" action="{{ route('perfil.update', ['id' => $user->id]) }}">
+            <form method="POST" action="{{ route('perfil.update', [Auth::User()->id]) }}">
             @csrf
             @method('PUT')
-            <input type="hidden" name="id" value="{{ $user->id }}">
-                <input type="hidden" name="id" value="{{ $user->id }}">
+            <input type="hidden" name="id" value="{{ Auth::User()->id }}">
+                <input type="hidden" name="id" value="{{ Auth::User()->id }}">
                 <label for="nombre">Nombres:</label>
-                <input type="text" id="nombre" name="nombre" value="{{ $user->name }}" required><br><br>
+                <input type="text" id="nombre" name="nombre" value="{{ Auth::User()->name }}" required><br><br>
 
                 <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="telefono" value="{{ $user->telefono }}" required><br><br>
+                <input type="text" id="telefono" name="telefono" value="{{ Auth::User()->telefono }}" required><br><br>
 
                 <label for "correo">Correo:</label>
-                <input type="email" id="correo" name="correo" value="{{ $user->email }}" required><br><br>
+                <input type="email" id="correo" name="correo" value="{{ Auth::User()->email }}" required><br><br>
 
                 <input type="submit" value="Actualizar">
             </form>

@@ -17,8 +17,8 @@ class AdministradorController extends Controller
     public function index()
     {
         //
-        $user = Auth()->User();
-        return view('Administrador.perfil', ['user'=>$user]);
+       
+        return view('Administrador.perfil');
     }
 
     /**
