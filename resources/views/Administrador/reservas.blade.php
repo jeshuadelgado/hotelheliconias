@@ -21,7 +21,7 @@
       });
 
     </script>
-    <title>Administrador</title>
+    <title>Reservas</title>
 </head>
 
 <body>

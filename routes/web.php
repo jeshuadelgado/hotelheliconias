@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InformacionController;
+use App\Http\Controllers\FormularioController;
 use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +32,6 @@ Route::get('/Administrador/editar/{id}', 'AdministradorController@edit')->name('
 
 Route::put('/perfil/{id}', 'AdministradorController@update')->name('perfil.update');
 
-
 //Reservas
 Route::get('/administrador/reservas', function () {
     return view('administrador.reservas'); // Asegúrate de que la vista se encuentra en la ubicación correcta.
@@ -41,4 +42,8 @@ Route::get('/administrador/reservas', function () {
     return view('administrador.reservas'); // Asegúrate de que la vista de reservas se encuentre en la ubicación correcta.
 })->name('administrador.reservas');
 
-Route::get('/reservas/events', 'ReservasController@events')->name('reservas.events');
+Route::get('/reser/events', 'ReservasController@events')->name('reservas.events');
+
+Route::get('/Administrador/informacion', [InformacionController::class, 'index']);
+
+Route::get('/Administrador/formulario', [FormularioController::class, 'index']);

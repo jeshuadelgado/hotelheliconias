@@ -34,12 +34,6 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="#page-top" class="sidebar-link">
-                        <i class="fa-regular fa-file-lines pe-2"></i>
-                            Factura
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
                         <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#auth"
                             aria-expanded="false" aria-controls="auth">
                             <i class="fa-regular fa-user pe-2"></i>
@@ -47,11 +41,12 @@
                         </a>
                         <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Información</a>
+                            <a href="/Administrador/informacion" class="sidebar-link">
+                                <i class="fa-solid fa-list pe-2"></i>
+                                Información
+                            </a>
                             </li>
-                            <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Inventario</a>
-                            </li>
+                        
                         </ul>
                     </li>
                 </ul>

@@ -8,6 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Event extends Model
 {
     use HasFactory;
-
     protected $filable = ['event','start_date','end_date'];
 }
